@@ -1,4 +1,4 @@
-# tropical bot list api wrapper for node.js
+# space list api wrapper for node.js
 
 [Bot List Link](https://www.spacebotlist.xyz/)
 
