@@ -1,4 +1,4 @@
-# space list api wrapper for node.js
+# space bot list api wrapper for node.js
 
 [Bot List Link](https://www.spacebotlist.xyz/)
 
@@ -17,21 +17,21 @@
 
 **Response**
 
-[ Error ] 429 : `[TBL] (429): Your are being ratelimited, 1 request per 5 mins.`
+[ Error ] 429 : `[SBL] (429): Your are being ratelimited, 1 request per 5 mins.`
 
-[ Error ] 404 : `[TBL] (404): Can't find server_count.`
+[ Error ] 404 : `[SBL] (404): Can't find server_count.`
 
-[ Error ] 404 : `[TBL] (404): Authorization header not found.`
+[ Error ] 404 : `[SBL] (404): Authorization header not found.`
 
-[ Error ] 400 : `[TBL] (400): server_count not integer.`
+[ Error ] 400 : `[SBL] (400): server_count not integer.`
 
-[ Error ] 404 : `[TBL] (404): Bot not found!`
+[ Error ] 404 : `[SBL] (404): Bot not found!`
 
-[ Error ] 400 : `[TBL] (400): Incorrect authorization token.`
+[ Error ] 400 : `[SBL] (400): Incorrect authorization token.`
 
-[ Error ] 404 : `[TBL] (404): Go generate auth token for your bot!`
+[ Error ] 404 : `[SBL] (404): Go generate auth token for your bot!`
 
-[ Error ] 400 : `[TBL] (400): shard_count not integer.`
+[ Error ] 400 : `[SBL] (400): shard_count not integer.`
 
 
 [ Success ] 200 : **[200]: Your Stats Has Been Posted.**
@@ -40,14 +40,14 @@
 const Discord = require("discord.js")
 const client = new Discord.Client()
 const prefix = "!";
-const TBL = require("spacebotlist.js")
-const tbl = new TBL.get(client.user.id,"bot-auth-token")
+const SBL = require("spacebotlist.js")
+const sbl = new SBL.get(client.user.id,"bot-auth-token")
 
 client.on("ready", () => {
 console.log(`Logged in as ${client.user.tag}.`)
 setInterval(() => {
-    tbl.post(client.guilds.cache.size)
-    //tbl.post(client.guilds.cache.size, client.shard.count)
+    sbl.post(client.guilds.cache.size)
+    //sbl.post(client.guilds.cache.size, client.shard.count)
     //to post shard count!
 })
 
