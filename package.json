@@ -1,0 +1,22 @@
+{
+  "name": "spacebotlist.js",
+  "version": "1.0.3",
+  "description": "Package for www.spacebotlist.xyz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyAlumny/spacebotlist.js.git"
+  },
+  "keywords": [
+    "Discord"
+  ],
+  "author": "SkyAlumny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkyAlumny/spacebotlist.js/issues"
+  },
+  "homepage": "https://github.com/SkyAlumny/spacebotlist.js#readme"
+}
