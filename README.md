@@ -1,4 +1,4 @@
-# space bot list api wrapper for node.js
+# SpaceBotList api wrapper for node.js
 
 [Bot List Link](https://www.spacebotlist.xyz/)
 
