@@ -49,6 +49,7 @@ setInterval(() => {
     sbl.post(client.guilds.cache.size)
     //sbl.post(client.guilds.cache.size, client.shard.count)
     //to post shard count!
+     }, 10000);
 })
 
 client.on("message", message => {
