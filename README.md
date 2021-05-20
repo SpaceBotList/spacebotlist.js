@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # spacebotlist.js
 =======
 # SpaceBotList api wrapper for node.js
