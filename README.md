@@ -1,6 +1,6 @@
 
 # spacebotlist.js
-=======
+
 # SpaceBotList api wrapper for node.js
 >>>>>>> 3ba35ad2dec29605125d85c141e6fd7df6d1a221
 
