@@ -11,7 +11,7 @@
 - `npm i spacebotlist.js`
 
 ```js
-const spacebotlist = require("vcodes.js");
+const spacebotlist = require("spacebotlist.js");
 const dbl = new spacebotlist("TOKEN-HERE", client);
 
 client.on("ready", async () => {
